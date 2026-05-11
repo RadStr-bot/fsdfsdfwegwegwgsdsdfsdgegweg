@@ -1,6 +1,8 @@
 {
-  "modelId": "http://dataspecer.com/packages/local-root/bc8f5978-446b-4064-9bbc-e3b82aba2aea/vocabulary",
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "64a3f42b-5295-4ff6-bc01-8ef99bdd0a67",
   "modelAlias": "Data Specification Vocabulary (DSV)",
+  "baseIri": "https://w3id.org/dsv#",
   "entities": {
     "https://w3id.org/dsv#reusedFromResource": {
       "id": "https://w3id.org/dsv#reusedFromResource",
@@ -822,6 +824,5 @@
       "child": "https://w3id.org/dsv#VocabularySpecificationDocument",
       "parent": "http://www.w3.org/2002/07/owl#Thing"
     }
-  },
-  "baseIri": "https://w3id.org/dsv#"
+  }
 }

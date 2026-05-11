@@ -1,0 +1,434 @@
+{
+  "identifier": "225394ae-c112-42a7-acf5-3db01383704b",
+  "version": 1,
+  "type": "http://dataspecer.com/resources/local/visual-model",
+  "entities": [
+    {
+      "identifier": "225394ae-c112-42a7-acf5-3db01383704b-model-metadata-entity",
+      "type": [
+        "entity-model-type"
+      ],
+      "label": {
+        "en": "Anonymous model"
+      }
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/Agent",
+      "position": {
+        "x": 2010,
+        "y": 1150,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "4pz10i"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/AgentClass",
+      "position": {
+        "x": 2320,
+        "y": 1150,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "g3cjq"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/BibliographicResource",
+      "position": {
+        "x": 0,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "ce1fj"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/FileFormat",
+      "position": {
+        "x": 1400,
+        "y": 230,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "f6dfn"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/Frequency",
+      "position": {
+        "x": 300,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "etzje"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/Jurisdiction",
+      "position": {
+        "x": 0,
+        "y": 1150,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "g87b0g"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/LicenseDocument",
+      "position": {
+        "x": 1710,
+        "y": 1260,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "q7el8"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/LinguisticSystem",
+      "position": {
+        "x": 600,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "5ai9dk"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/Location",
+      "position": {
+        "x": 920,
+        "y": 1170,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "5grz4"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/LocationPeriodOrJurisdiction",
+      "position": {
+        "x": 440,
+        "y": 1430,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "pxr4s"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FLocation&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FLocationPeriodOrJurisdiction",
+      "waypoints": [],
+      "visualSource": "5grz4",
+      "visualTarget": "pxr4s",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "uhvid"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FJurisdiction&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FLocationPeriodOrJurisdiction",
+      "waypoints": [],
+      "visualSource": "g87b0g",
+      "visualTarget": "pxr4s",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "m754a"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/MediaType",
+      "position": {
+        "x": 920,
+        "y": 480,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "x6za2"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FFileFormat&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FMediaType",
+      "waypoints": [],
+      "visualSource": "f6dfn",
+      "visualTarget": "x6za2",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "mlv1m"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/MediaTypeOrExtent",
+      "position": {
+        "x": 460,
+        "y": 200,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "txjnl"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FMediaType&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FMediaTypeOrExtent",
+      "waypoints": [],
+      "visualSource": "x6za2",
+      "visualTarget": "txjnl",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "hgso6"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/MethodOfAccrual",
+      "position": {
+        "x": 910,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "aqtro"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/MethodOfInstruction",
+      "position": {
+        "x": 1210,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "ulzr6"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/PeriodOfTime",
+      "position": {
+        "x": 450,
+        "y": 1970,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "bemgj"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FPeriodOfTime&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FLocationPeriodOrJurisdiction",
+      "waypoints": [],
+      "visualSource": "bemgj",
+      "visualTarget": "pxr4s",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "wx3nf"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/PhysicalMedium",
+      "position": {
+        "x": 950,
+        "y": 1020,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "542uy"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FPhysicalMedium&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FMediaType",
+      "waypoints": [],
+      "visualSource": "542uy",
+      "visualTarget": "x6za2",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "e6s1a"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/PhysicalResource",
+      "position": {
+        "x": 1520,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "lfgpz"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/Policy",
+      "position": {
+        "x": 1820,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "pldmp"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/ProvenanceStatement",
+      "position": {
+        "x": 2120,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "my3d4"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/RightsStatement",
+      "position": {
+        "x": 1220,
+        "y": 1150,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "08164"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FLicenseDocument&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FRightsStatement",
+      "waypoints": [],
+      "visualSource": "q7el8",
+      "visualTarget": "08164",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "nrkcn"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/SizeOrDuration",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "co29e"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalizationfromIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FSizeOrDuration&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FMediaTypeOrExtent",
+      "waypoints": [],
+      "visualSource": "co29e",
+      "visualTarget": "txjnl",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "54f2e"
+    },
+    {
+      "model": "b40958f0-2b21-49ac-b00b-b219e96db909",
+      "representedEntity": "http://purl.org/dc/terms/Standard",
+      "position": {
+        "x": 2430,
+        "y": 2100,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "34gbw"
+    }
+  ]
+}
